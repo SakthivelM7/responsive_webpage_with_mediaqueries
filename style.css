@@ -1,0 +1,51 @@
+.container{
+    background-color:blanchedalmond;
+    color: #000000;
+    padding: 0;
+    height: 30px;
+    
+}
+.container-1{
+    background-color: blue;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+body{
+    background-color: rgb(156, 195, 118);
+}
+img{
+    width: 1000px;
+    height: 800px;
+    margin-left: 80px;
+}
+ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+@media  screen and (max-width:800px) {
+    .container-1{
+        background-color: brown;
+    } 
+    body{
+        background-color: azure;
+    } 
+}
+@media  screen and (max-width:800px) {
+    ul{
+        display: block;
+        margin-top: 20px;
+    }  
+    .container{
+        height: 100px;
+        background-color: rgb(97, 150, 139);
+    }
+    img{
+        width: 600px;
+        margin-left: 20px;
+    }
+}
